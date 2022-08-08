@@ -1,0 +1,67 @@
+.fieldset-container {
+  box-shadow: -2px 0 5px #000;
+  width: 50rem;
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.fieldset-content {
+  padding: 4.8rem;
+}
+
+.title h1 {
+  color: white;
+  font-family: var(--font-genos);
+  font-size: 2rem;
+}
+
+.title p {
+  color: #6c757d;
+  font-family: var(--font-genos);
+  font-size: 1.6rem;
+  margin-bottom: 4.4rem;
+}
+
+.title p span{
+    margin-left: 2.2rem;
+}
+
+.title::before{
+    position: absolute;
+    content: "S";
+    color: #6c757d;
+    font-size: 4rem;
+    font-family: var(--font-genos);
+    right: 24.8rem;
+    top: 5.6rem;
+    font-style: italic;
+}
+
+.btn-forgetpassword p {
+  color: #ccc;
+  font-style: italic;
+  font-size: 1.3rem;
+  text-align: right;
+}
+
+.btn-forgetpassword p:hover {
+    color: #AAA;
+    cursor: pointer;
+}
+
+.fieldset-footer {
+  position: absolute;
+  bottom: 0;
+  width: 50rem;
+  height: 11.2rem;
+  background-color: var(--third-color);
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.129);
+}
+
+.fieldset-footer p {
+  color: white;
+  font-family: var(--font-genos);
+  font-size: 1.9rem;
+  line-height: 6rem;
+  text-align: center;
+}

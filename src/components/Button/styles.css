@@ -1,0 +1,15 @@
+.btn {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: var(--font-genos);
+    color: white;
+    text-align: center;
+    height: 3.6rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #CCC;
+}

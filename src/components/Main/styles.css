@@ -1,0 +1,7 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 50rem;
+  height: 100vh;
+  overflow: hidden;
+}
+

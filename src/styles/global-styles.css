@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+:root {
+  --primary-color: #111111;
+  --secondary-color: #ffffff;
+  --third-color: #151515;
+  --input-background: #292929;
+  --input-color: #CCC;
+  --font-genos: "Genos";
+  --blue-petty: rgb(33, 150, 243);
+  --blue-login: #304FFE;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.full-page {
+  min-height: 100vh;
+  width: 100%;
+}

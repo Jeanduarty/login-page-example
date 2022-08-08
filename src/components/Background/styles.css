@@ -1,0 +1,19 @@
+.background-video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    object-fit: cover;
+  }
+
+  .teste{
+    width: 100%;
+    height: 100%;
+  }
+
+  .teste img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
