@@ -8,6 +8,9 @@
 
 @media (max-width: 500px) {
   .main-container{
-    grid-template-columns: 0fr 1fr
+    grid-template-columns: 1fr
+  }
+  .container-video{
+    display: none !important;
   }
 }
