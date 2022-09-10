@@ -1,7 +1,7 @@
 {
   "main.css": "/login-page-example/static/css/main.8a74015a.chunk.css",
-  "main.js": "/login-page-example/static/js/main.d128e524.chunk.js",
-  "main.js.map": "/login-page-example/static/js/main.d128e524.chunk.js.map",
+  "main.js": "/login-page-example/static/js/main.a28b3b5e.chunk.js",
+  "main.js.map": "/login-page-example/static/js/main.a28b3b5e.chunk.js.map",
   "static/js/1.4b5219df.chunk.js": "/login-page-example/static/js/1.4b5219df.chunk.js",
   "static/js/1.4b5219df.chunk.js.map": "/login-page-example/static/js/1.4b5219df.chunk.js.map",
   "runtime~main.js": "/login-page-example/static/js/runtime~main.808a2ac5.js",
@@ -10,6 +10,6 @@
   "static/media/crey.jpg": "/login-page-example/static/media/crey.9d365594.jpg",
   "static/css/main.8a74015a.chunk.css.map": "/login-page-example/static/css/main.8a74015a.chunk.css.map",
   "index.html": "/login-page-example/index.html",
-  "precache-manifest.e08cfe33bcc50a50020e5a9f7317fafc.js": "/login-page-example/precache-manifest.e08cfe33bcc50a50020e5a9f7317fafc.js",
+  "precache-manifest.93f07acb104c5806ee184dbebbf12193.js": "/login-page-example/precache-manifest.93f07acb104c5806ee184dbebbf12193.js",
   "service-worker.js": "/login-page-example/service-worker.js"
 }
