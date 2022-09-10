@@ -5,3 +5,9 @@
   overflow: hidden;
 }
 
+
+@media (max-width: 500px) {
+  .main-container{
+    grid-template-columns: 0fr 1fr
+  }
+}

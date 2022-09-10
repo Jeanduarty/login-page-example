@@ -1,9 +1,10 @@
 .fieldset-container {
   box-shadow: -2px 0 5px #000;
-  width: 50rem;
+  width: 100%;
   height: 100vh;
   background-color: var(--primary-color);
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.129);
+  position: relative;
 }
 
 .fieldset-content {
@@ -26,14 +27,15 @@
 
 .title p span {
   margin-left: 2.2rem;
+  position: relative;
 }
 
 .title p span::before {
   position: absolute;
   content: "S";
   font-size: 4rem;
-  right: 24.8rem;
-  top: 5.8rem;
+  left: -2.2rem;
+  top: -2rem;
   font-style: italic;
 }
 
@@ -57,7 +59,7 @@
 .fieldset-footer {
   position: absolute;
   bottom: 0;
-  width: 50rem;
+  width: 100%;
   height: 11.2rem;
   background-color: var(--third-color);
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.129);
@@ -71,4 +73,27 @@
   text-align: center;
 }
 
+.info{
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+}
 
+
+.popover-div {
+  position: absolute;
+  top: 4rem;
+  right: 4rem;
+  width: 22rem;
+  padding: .5rem 0;
+  border-radius: 2.5rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  background-color: #304FFE;
+  font-family: var(--font-genos);
+}

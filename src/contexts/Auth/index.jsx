@@ -20,6 +20,7 @@ export const AuthProvider = ({ children }) => {
   function signout() {
     setUser(null);
     setTokenLocalStorage(null);
+    return window.location.href = '/login-page-example'
   }
 
   return (

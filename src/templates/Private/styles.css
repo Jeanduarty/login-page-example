@@ -1,0 +1,34 @@
+.container-page-private{
+    width: 100%;
+}
+
+.button-page-private{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #304FFE;
+    color: white;
+    font-family: "Genos";
+    font-size: 3rem;
+    padding: 1rem 0;
+    margin: 5rem auto;
+    cursor: pointer;
+    border-radius: 3rem;
+}
+
+.github-button{
+    background-color:#22272E ;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Genos";
+    font-size: 3rem;
+    padding: 1rem 0;
+    margin: 5rem auto;
+    border-radius: 3rem;
+    text-decoration: none;
+
+}

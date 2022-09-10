@@ -26,7 +26,6 @@ export async function LoginRequest(email, password) {
 export function RequireAuth({ children }) {
   const auth = useAuth();
   if (!auth.email) {
-    alert("You don't have access!")
     return window.location.href = '/'
   }
 
