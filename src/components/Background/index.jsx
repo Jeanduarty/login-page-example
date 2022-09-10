@@ -11,7 +11,7 @@ export const Background = () => {
   const [background, setBackground] = useState(false);
   
   return (
-    <div className="teste">
+    <div className="container-video">
       {background && <img src={imageCrey} alt="SeucreysonReborn"/>}
       {!background && (
         <video
