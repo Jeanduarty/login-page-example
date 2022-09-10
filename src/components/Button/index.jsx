@@ -1,28 +1,10 @@
+import React from 'react';
+
 import "./styles.css";
 
-export const Button = ({
-  text,
-  backgroundColor,
-  width,
-  margin,
-  color,
-  fontStyle,
-  fontSize,
-  textAlign,
-}) => {
+export const Button = ({ onClick, text, id, style, disabled }) => {
   return (
-    <button
-      className="btn"
-      style={{
-        margin: margin,
-        backgroundColor: backgroundColor,
-        width: width,
-        color: color,
-        fontStyle: fontStyle,
-        fontSize: fontSize,
-        textAlign: textAlign,
-      }}
-    >
+    <button className="btn" id={id} onClick={onClick} style={style} disabled={disabled}>
       {text}
     </button>
   );

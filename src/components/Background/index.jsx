@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./styles.css";
 
 import { useState } from "react";
@@ -7,18 +9,10 @@ import imageCrey from "./image/crey.jpg";
 
 export const Background = () => {
   const [background, setBackground] = useState(false);
-
-  // document.addEventListener('visibilitychange',()=>{
-  //   if (document.visibilityState === 'visible'){
-  //     setTimeout(() => {
-
-  //     }, 6000);
-  //   }
-  // })
-
+  
   return (
     <div className="teste">
-      {background && <img src={imageCrey} alt="" srcset="" />}
+      {background && <img src={imageCrey} alt="SeucreysonReborn"/>}
       {!background && (
         <video
           autoPlay

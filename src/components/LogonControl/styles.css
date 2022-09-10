@@ -3,6 +3,7 @@
   width: 50rem;
   height: 100vh;
   background-color: var(--primary-color);
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.129);
 }
 
 .fieldset-content {
@@ -20,33 +21,37 @@
   font-family: var(--font-genos);
   font-size: 1.6rem;
   margin-bottom: 4.4rem;
+  padding-top: 0.5rem;
 }
 
-.title p span{
-    margin-left: 2.2rem;
+.title p span {
+  margin-left: 2.2rem;
 }
 
-.title::before{
-    position: absolute;
-    content: "S";
-    color: #6c757d;
-    font-size: 4rem;
-    font-family: var(--font-genos);
-    right: 24.8rem;
-    top: 5.6rem;
-    font-style: italic;
+.title p span::before {
+  position: absolute;
+  content: "S";
+  font-size: 4rem;
+  right: 24.8rem;
+  top: 5.8rem;
+  font-style: italic;
+}
+
+.btn-forgetpassword {
+  position: relative;
 }
 
 .btn-forgetpassword p {
+  position: absolute;
   color: #ccc;
   font-style: italic;
   font-size: 1.3rem;
-  text-align: right;
+  right: 0;
 }
 
 .btn-forgetpassword p:hover {
-    color: #AAA;
-    cursor: pointer;
+  color: #aaa;
+  cursor: pointer;
 }
 
 .fieldset-footer {
@@ -65,3 +70,5 @@
   line-height: 6rem;
   text-align: center;
 }
+
+

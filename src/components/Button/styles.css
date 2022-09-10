@@ -1,15 +1,20 @@
 .btn {
-    display: block;
-    width: 100%;
-    border: none;
-    border-radius: 4px;
-    font-size: var(--font-genos);
-    color: white;
-    text-align: center;
-    height: 3.6rem;
-    cursor: pointer;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #304ffe;
+  color: white;
+  text-align: center;
+  height: 3.6rem;
+  line-height: 3rem;
+  margin: 4rem 0 0 0;
+  cursor: pointer;
+  font-size: 1.9rem;
+  font-family: var(--font-genos);
 }
 
-.btn:hover{
-    color: #CCC;
+.btn:disabled {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #242424;
 }
