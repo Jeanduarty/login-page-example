@@ -1,3 +1,6 @@
+import React from "react";
+
+import { Navigate } from "react-router-dom";
 import { Api } from "../../services/api";
 import { useAuth } from "./useAuth";
 
@@ -26,7 +29,8 @@ export async function LoginRequest(email, password) {
 export function RequireAuth({ children }) {
   const auth = useAuth();
   if (!auth.email) {
-    return window.location.href = '/'
+    alert("You don't have access!")
+    return <Navigate to='/' />
   }
 
   return children;
